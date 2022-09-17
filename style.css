@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap");
+
+ul {
+  list-style: none;
+  display: flex;
+}
+
+body {
+  background-image: radial-gradient(
+    circle at 50% 50%,
+    #ff6ebf 0,
+    #ff63c8 8.33%,
+    #ff59d1 16.67%,
+    #ff4eda 25%,
+    #f146e3 33.33%,
+    #d640eb 41.67%,
+    #b53cf2 50%,
+    #8b3df9 58.33%,
+    #4b41ff 66.67%,
+    #0046ff 75%,
+    #004bff 83.33%,
+    #0050ff 91.67%,
+    #0052ff 100%
+  );
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  background-image: radial-gradient(
+    circle at 28.18% 87.8%,
+    #f0bdff 0,
+    #d4aeff 25%,
+    #b99df2 50%,
+    #9f8cd8 75%,
+    #887dbf 100%
+  );
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 25px;
+  box-shadow: 8px 8px 8px #0e1d2f;
+  padding: 64px;
+}
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+.titulo h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+.social-list {
+  align-self: flex-start;
+}
+.tema button {
+  align-self: flex-end;
+  font-size: 14px;
+  font-weight: 100;
+  padding: 8px 16px;
+  background: #ecf4ff;
+  border-radius: 100px;
+  border: 2px solid #;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(
+    80deg,
+    #ffe7ff 0,
+    #e6c4ff 25%,
+    #b99df2 50%,
+    #8a79d8 75%,
+    #5a5cc2 100%
+  );
+  margin-top: 40px;
+  padding: 32px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  border-radius: 20px;
+}
+
+.projetos-titulos {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark. container {
+  background: #375b86;
+  color: #f6f6f6;
+}
+.dark. projetos {
+  color: #1c1c1c;
+}
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
